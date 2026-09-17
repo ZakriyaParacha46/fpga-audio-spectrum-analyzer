@@ -1,0 +1,25 @@
+# Rendered/generated media - large, regenerable, never checked in
+media/
+**/media/
+*.mp4
+__pycache__/
+**/__pycache__/
+*.pyc
+review_frames/
+**/review_frames/
+output/
+Voice_overs/
+realclips/
+.claude/
+
+# Vivado build artifacts - large, regenerable from FFTspectrum/VU.srcs
+FFTspectrum/VU.cache/
+FFTspectrum/VU.runs/
+FFTspectrum/VU.sim/
+FFTspectrum/VU.ip_user_files/
+FFTspectrum/VU.hw/
+*.jou
+*.log
+.Xil/
+
+.DS_Store
